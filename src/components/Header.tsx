@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Header() {
   return (
     <header className="bg-gradient-to-r from-slate-900 to-slate-800">
@@ -5,11 +7,13 @@ export default function Header() {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="flex items-center">
-            <img 
-              src="/INMOBI.png" 
-              alt="Inmobi Export" 
-              className="h-12 w-auto"
-            />
+            <Link href="/" className="cursor-pointer">
+              <img 
+                src="/INMOBI.png" 
+                alt="Inmobi Export" 
+                className="h-12 w-auto hover:opacity-80 transition-opacity"
+              />
+            </Link>
           </div>
           
           {/* Contact Info */}

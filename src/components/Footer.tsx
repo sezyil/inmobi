@@ -13,11 +13,13 @@ export default function Footer() {
           {/* Company Info */}
           <div className="md:col-span-2">
             <div className="flex items-center mb-4">
-              <img 
-                src="/INMOBI.png" 
-                alt="Inmobi Export" 
-                className="h-10 w-auto"
-              />
+              <Link href="/" className="cursor-pointer">
+                <img 
+                  src="/INMOBI.png" 
+                  alt="Inmobi Export" 
+                  className="h-10 w-auto hover:opacity-80 transition-opacity"
+                />
+              </Link>
             </div>
             <p className="text-gray-300 mb-4">
               Premium furniture export from Türkiye to worldwide markets. Traditional craftsmanship meets modern design with international quality standards.
