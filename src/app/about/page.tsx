@@ -12,23 +12,23 @@ export default function About() {
       <Header />
       
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-700 py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-            About Inmobi Export
-          </h1>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            A decade of excellence in furniture export from İnegöl to the world
-          </p>
-        </div>
-      </section>
+             <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-700 py-12 sm:py-20">
+               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                 <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-white mb-6">
+                   About Inmobi Export
+                 </h1>
+                 <p className="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto px-4">
+                   A decade of excellence in furniture export from İnegöl to the world
+                 </p>
+               </div>
+             </section>
 
       {/* Company Story Section */}
-      <section className="py-20 bg-white">
+      <section className="py-12 sm:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold text-slate-900 mb-6">
+              <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-6">
                 Our Story
               </h2>
               <p className="text-lg text-gray-600 mb-6">
@@ -41,7 +41,7 @@ export default function About() {
                 With a dedicated team of 4 professionals, we provide comprehensive services from design consultation to final delivery, making us a trusted partner in the global furniture market.
               </p>
             </div>
-            <div className="w-full max-w-md aspect-square rounded-lg overflow-hidden border-2 border-gray-200 ml-4">
+            <div className="w-full max-w-sm sm:max-w-md aspect-square rounded-lg overflow-hidden border-2 border-gray-200 mx-auto lg:ml-4">
               <img
                 src="/images/services/Furniture trade,.png"
                 alt="Furniture Trade"

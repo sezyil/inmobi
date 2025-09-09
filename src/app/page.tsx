@@ -45,16 +45,16 @@ export default function Home() {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-700 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h1 className="text-5xl font-bold mb-6">
+        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
           Quality Furniture Export from Türkiye
         </h1>
-          <p className="text-xl mb-8 max-w-3xl mx-auto">
+          <p className="text-lg sm:text-xl mb-8 max-w-3xl mx-auto px-4">
             Traditional craftsmanship meets modern design with international quality standards. 
             We bring Türkiye&apos;s rich furniture heritage to global markets.
           </p>
           <button 
             onClick={() => setIsModalOpen(true)}
-            className="bg-white text-slate-900 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
+            className="bg-white text-slate-900 px-6 sm:px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors text-sm sm:text-base"
           >
             Get Quote
           </button>
@@ -62,68 +62,68 @@ export default function Home() {
       </section>
 
              {/* Services Section */}
-             <section className="py-20 bg-white">
+             <section className="py-12 sm:py-20 bg-white">
                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                 <h2 className="text-3xl font-bold text-center text-slate-900 mb-12">
+                 <h2 className="text-2xl sm:text-3xl font-bold text-center text-slate-900 mb-8 sm:mb-12">
                    Our Services
                  </h2>
 
                  {/* Services Grid */}
-                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
                    <div>
-                     <div className="rounded-lg overflow-hidden h-64 mb-4">
+                     <div className="rounded-lg overflow-hidden h-48 sm:h-64 mb-4">
                        <img 
                          src="/images/services/furniture.jpg" 
                          alt="Furniture Export"
                          className="w-full h-full object-cover"
                        />
                      </div>
-                     <h3 className="text-xl font-bold text-center text-slate-900">Furniture Export</h3>
+                     <h3 className="text-lg sm:text-xl font-bold text-center text-slate-900">Furniture Export</h3>
                    </div>
 
                    <div>
-                     <div className="rounded-lg overflow-hidden h-64 mb-4">
+                     <div className="rounded-lg overflow-hidden h-48 sm:h-64 mb-4">
                        <img 
                          src="/images/services/logistic.jpg" 
                          alt="Logistics"
                          className="w-full h-full object-cover"
                        />
                      </div>
-                     <h3 className="text-xl font-bold text-center text-slate-900">Logistics</h3>
+                     <h3 className="text-lg sm:text-xl font-bold text-center text-slate-900">Logistics</h3>
                    </div>
 
                    <div>
-                     <div className="rounded-lg overflow-hidden h-64 mb-4">
+                     <div className="rounded-lg overflow-hidden h-48 sm:h-64 mb-4">
                        <img 
                          src="/images/services/custom design.jpg" 
                          alt="Custom Design"
                          className="w-full h-full object-cover"
                        />
                      </div>
-                     <h3 className="text-xl font-bold text-center text-slate-900">Custom Design</h3>
+                     <h3 className="text-lg sm:text-xl font-bold text-center text-slate-900">Custom Design</h3>
                    </div>
 
                    <div>
-                     <div className="rounded-lg overflow-hidden h-64 mb-4">
+                     <div className="rounded-lg overflow-hidden h-48 sm:h-64 mb-4">
                        <img 
                          src="/images/services/quality.jpg" 
                          alt="Quality Control"
                          className="w-full h-full object-cover"
                        />
                      </div>
-                     <h3 className="text-xl font-bold text-center text-slate-900">Quality Control</h3>
+                     <h3 className="text-lg sm:text-xl font-bold text-center text-slate-900">Quality Control</h3>
                    </div>
                  </div>
                </div>
              </section>
 
       {/* Modal */}
-      {isModalOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-          <div className="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+             {isModalOpen && (
+               <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+                 <div className="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto mx-4">
             <div className="p-6">
               <div className="flex justify-between items-center mb-6">
-                <h2 className="text-2xl font-bold text-slate-900">Get In Touch</h2>
+                <h2 className="text-xl sm:text-2xl font-bold text-slate-900">Get In Touch</h2>
                 <button
                   onClick={() => setIsModalOpen(false)}
                   className="text-gray-500 hover:text-gray-700 text-2xl"
