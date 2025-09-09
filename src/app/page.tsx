@@ -13,7 +13,7 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Inmobi Export",
-    "description": "Premium furniture export from Türkiye to worldwide markets",
+        "description": "Quality furniture export from Türkiye to worldwide markets",
     "url": "https://inmobi.com.tr",
     "logo": "https://inmobi.com.tr/INMOBI.png",
     "address": {
@@ -46,9 +46,9 @@ export default function Home() {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-700 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl font-bold mb-6">
-            Premium Furniture Export from Türkiye
-          </h1>
+        <h1 className="text-5xl font-bold mb-6">
+          Quality Furniture Export from Türkiye
+        </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             Traditional craftsmanship meets modern design with international quality standards. 
             We bring Türkiye's rich furniture heritage to global markets.

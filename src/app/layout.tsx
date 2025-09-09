@@ -13,16 +13,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Inmobi Export - Premium Furniture Export from Türkiye | Quality Furniture Manufacturing',
-  description: 'Premium furniture export from Türkiye to worldwide markets. Traditional craftsmanship meets modern design with international quality standards. We bring Türkiye\'s rich furniture heritage to global markets.',
-  keywords: 'furniture export, Türkiye furniture, premium furniture, furniture manufacturing, İnegöl furniture, Bursa furniture, custom design, logistics, quality control',
+  title: 'Inmobi Export - Quality Furniture Export from Türkiye | Professional Furniture Manufacturing',
+  description: 'Quality furniture export from Türkiye to worldwide markets. Traditional craftsmanship meets modern design with international quality standards. We bring Türkiye\'s rich furniture heritage to global markets.',
+  keywords: 'furniture export, Türkiye furniture, quality furniture, furniture manufacturing, İnegöl furniture, Bursa furniture, custom design, logistics, quality control',
   authors: [{ name: 'Inmobi Export' }],
   creator: 'Inmobi Export',
   publisher: 'Inmobi Export',
   robots: 'index, follow',
   openGraph: {
-    title: 'Inmobi Export - Premium Furniture Export from Türkiye',
-    description: 'Premium furniture export from Türkiye to worldwide markets. Traditional craftsmanship meets modern design.',
+    title: 'Inmobi Export - Quality Furniture Export from Türkiye',
+    description: 'Quality furniture export from Türkiye to worldwide markets. Traditional craftsmanship meets modern design.',
     url: 'https://inmobi.com.tr',
     siteName: 'Inmobi Export',
     locale: 'en_US',
@@ -32,14 +32,14 @@ export const metadata: Metadata = {
         url: '/images/services/furniture.jpg',
         width: 800,
         height: 600,
-        alt: 'Premium Furniture Export from Türkiye',
+        alt: 'Quality Furniture Export from Türkiye',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Inmobi Export - Premium Furniture Export from Türkiye',
-    description: 'Premium furniture export from Türkiye to worldwide markets.',
+    title: 'Inmobi Export - Quality Furniture Export from Türkiye',
+    description: 'Quality furniture export from Türkiye to worldwide markets.',
     images: ['/images/services/furniture.jpg'],
   },
   alternates: {

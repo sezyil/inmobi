@@ -22,7 +22,7 @@ export default function Footer() {
               </Link>
             </div>
             <p className="text-gray-300 mb-4">
-              Premium furniture export from Türkiye to worldwide markets. Traditional craftsmanship meets modern design with international quality standards.
+              Quality furniture export from Türkiye to worldwide markets. Traditional craftsmanship meets modern design with international quality standards.
             </p>
             <div className="text-sm text-gray-400">
               <p>Mahmudiye Mah. No:57/A İnegöl Bursa</p>
@@ -81,7 +81,7 @@ export default function Footer() {
               © 2024 Inmobi Export. All rights reserved.
             </div>
             <div className="text-sm text-gray-400">
-              Premium Furniture Export from Türkiye | İnegöl, Bursa
+              Quality Furniture Export from Türkiye | İnegöl, Bursa
             </div>
           </div>
         </div>
