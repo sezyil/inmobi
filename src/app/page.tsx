@@ -2,7 +2,6 @@
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import Image from 'next/image';
 import { useState } from 'react';
 
 
@@ -51,7 +50,7 @@ export default function Home() {
         </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             Traditional craftsmanship meets modern design with international quality standards. 
-            We bring Türkiye's rich furniture heritage to global markets.
+            We bring Türkiye&apos;s rich furniture heritage to global markets.
           </p>
           <button 
             onClick={() => setIsModalOpen(true)}

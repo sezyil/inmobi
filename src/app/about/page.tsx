@@ -32,7 +32,7 @@ export default function About() {
                 Our Story
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Founded by Seda Çelik, Inmobi Export has been a leading player in the furniture export industry for over 10 years. Based in İnegöl, the heart of Türkiye's furniture manufacturing, we have established ourselves as one of the key suppliers to numerous destinations worldwide.
+                Founded by Seda Çelik, Inmobi Export has been a leading player in the furniture export industry for over 10 years. Based in İnegöl, the heart of Türkiye&apos;s furniture manufacturing, we have established ourselves as one of the key suppliers to numerous destinations worldwide.
               </p>
               <p className="text-lg text-gray-600 mb-6">
                 Our expertise spans across furniture supply for hotels, restaurants, and major government projects. We maintain strict quality controls and professional management practices to ensure every project meets international standards.
@@ -123,7 +123,7 @@ export default function About() {
             Ready to Work With Us?
           </h2>
           <p className="text-xl text-gray-300 mb-8">
-            Let's discuss your furniture export needs and create something exceptional together.
+            Let&apos;s discuss your furniture export needs and create something exceptional together.
           </p>
           <button 
             onClick={() => setIsModalOpen(true)}
